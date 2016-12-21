@@ -3,7 +3,7 @@
 
 def result
   # @param <foo>
-  puts ::Dir.entries('/').join("\n")
+  puts ::Dir.entries('/app').join("\n")
 end
 
-result()
+result
