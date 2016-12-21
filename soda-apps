@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# List apps currently on this server
+
+def result
+  # @param <foo>
+  puts ::Dir.entries('/').join("\n")
+end
+
+result()
